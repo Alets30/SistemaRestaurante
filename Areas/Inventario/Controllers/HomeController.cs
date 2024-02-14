@@ -2,8 +2,9 @@
 using SistemaRestaurante.Modelos.ViewModels;
 using System.Diagnostics;
 
-namespace SistemaRestaurante.Controllers
+namespace SistemaRestaurante.Areas.Inventario.Controllers
 {
+    [Area("Inventario")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
