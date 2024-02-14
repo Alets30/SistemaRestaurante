@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SistemaRestaurante.Models;
+using SistemaRestaurante.Modelos.ViewModels;
 using System.Diagnostics;
 
 namespace SistemaRestaurante.Controllers

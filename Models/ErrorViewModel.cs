@@ -1,5 +1,6 @@
 namespace SistemaRestaurante.Models
 {
+    using SistemaRestaurante.Modelos.ViewModels;
     public class ErrorViewModel
     {
         public string? RequestId { get; set; }
